@@ -1,0 +1,34 @@
+{
+  "name": "chotto",
+  "description": "Checks for the existence of files and halts the Grunt build if they don't exist.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/munkychop/chotto",
+  "author": {
+    "name": "Ivan Hayes",
+    "email": "git@ivanhayes.com",
+    "url": "http://ivanhayes.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:munkychop/chotto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/munkychop/chotto/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/munkychop/chotto/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "files"
+  ]
+}
